@@ -31,4 +31,10 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: build_result
-        path: build/*
+        path: |
+          build/* 
+          dist/* 
+          static/* 
+          data/*
+          assets/sprites/*
+          exampleSite/data/sprites/*
