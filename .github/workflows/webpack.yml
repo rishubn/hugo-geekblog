@@ -32,9 +32,12 @@ jobs:
       with:
         name: build_result
         path: |
-          build/* 
-          dist/* 
-          static/* 
+          build/*
           data/*
-          assets/sprites/*
-          exampleSite/data/sprites/*
+          images/*
+          layouts/*
+          static/* 
+          LICENSE
+          README.md
+          theme.toml
+          VERSION
